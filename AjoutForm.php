@@ -16,7 +16,7 @@ include("../../header.php");
 include("../../footer.php");
 
 if ($id_connecte == 0) {
-	erreur2(ERR_IS_CO);
+	//erreur2(ERR_IS_CO);
 }
 ?>
 
@@ -266,9 +266,9 @@ if ($id_connecte == 0) {
 
 	</br>
 	</br>
-	<script src="../Patients/toggleForm.js"></script>
-	<script src="../Patients/Verif.js"></script>
-	<script src="../Patients/VerifSelect.js"></script>
+	<script src="../Patients/FormulairePrincipale.js"></script>
+	<script src="../Patients/FormulaireVerification.js"></script>
+	<script src="../Patients/FormulaireSelection.js"></script>
 
 
 </body>
